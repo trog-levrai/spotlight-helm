@@ -1,14 +1,14 @@
-# spotlight-helmfile
-Helmfile made for deploying spotlight in K8S
+# spotlight-helm
+Helm chart made for deploying spotlight in K8S
 
 ## Requirements
 
-Have a working helmfile configuration. You can follow [this](https://github.com/roboll/helmfile#installation) instructions.
+Have a working helm configuration. You can follow [these](https://helm.sh/docs/intro/quickstart/) instructions.
 
 ## Usage
 
 To deploy spotlight for english use the following command:
 
 ```shell
-helmfile apply
+helm install ...
 ```
