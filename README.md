@@ -7,8 +7,8 @@ Have a working helm configuration. You can follow [these](https://helm.sh/docs/i
 
 ## Usage
 
-To deploy spotlight for english use the following command:
+To deploy spotlight for english in the spotlight namespace, run:
 
 ```shell
-helm install ...
+helm install spotlight ./spotlight -n spotlight
 ```
